@@ -1,6 +1,6 @@
 package org.example.demo;
 
-public class Model {
+public class Model  {
     int num = 5;
     public Model() {
         this.num = 5;
@@ -11,4 +11,8 @@ public class Model {
     public void downData() {
         num--;
     }
+    int getData() {
+        return num;
+    }
+
 }
